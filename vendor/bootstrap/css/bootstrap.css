@@ -1124,6 +1124,24 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-hover-move{
+  width: 150px;
+  height: 40px;
+  background: #f01;
+  position: absolute;
+  top: 20px;
+  -webkit-transition: top 2s;
+  -moz-transition: top 2s;
+  -o-transition: top 2s;
+}
+
+.img-hover-move:hover{
+  top: 10px;
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  -o-transition: top 0.3s;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
