@@ -11,21 +11,18 @@ a:active,
 a.active {
   color: #18BC9C;
 }
-h1
- {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size:32px;
+h1{
+	font-size:48px;
+	font-weight:700;
 }
 h2
- {
+{
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size:24px;
 }
 h3
- {
+{
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size:24px;
@@ -120,27 +117,13 @@ body{
 header.content{
 	text-align:center;
 	width:100%;
-	height:330px;
-	background-color: #a0bcd8;
-	position:relative;
-}
-#vbBills{
-	width:55%;
-	height:330px;
-	filter: brightness(80%);
-	position: relative;
-}
-h2 span{
-	position:absolute;
-	top:270px;
 	left:44.1%;
-	padding: 10px;
-	font-family: 'Lora', serif;
-	background-color:#ffffff;
-	letter-spacing:0.33em;
-	font-size:1.2em;
-	font-weight:400;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:1000;
 	color:#a0bcd8;
+	text-transform: uppercase;
+	position: center;
+	margin-top:200px;
 }
 main{
 	width:100%;
@@ -164,7 +147,6 @@ div#leftContent{
 	height:130px;
 	margin-top:10px;
 	float:right;
-
 }
 div#rightContent{
 	width:65%;
