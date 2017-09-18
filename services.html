@@ -8,8 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+	
+	<!-- JQuery for Main Header-->
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 
-    <title>VitalBlinks</title>
+    <script> 
+       $(function(){
+          $('.main-header').load("header.html"); 
+       });
+    </script> 
+
+    <title>Services</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -101,6 +110,42 @@
 			</div>
 		</div>
 	</main>
+	
+	<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+
+	<label for="email">University/Organization Email</label>
+    <input type="text" id="email" name="Email" placeholder="Your Email..">
+
+	<label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" placeholder="Your Phone Number..">
+	
+	<label for="organization">Organization</label>
+    <input type="text" id="organization" name="organization" placeholder="Your Organization..">
+	
+	<label for="country">Country</label>
+    <input type="text" id="country" name="country" placeholder="Your Country..">
+
+    <label for="course focus">Course Focus</label>
+    <input type="text" id="courseFocus" name="courseFocus" placeholder="Your Course Focus..">
+
+	<label for="Expected Simulation Time Span">Expected Simulation Time Span</label>
+    <input type="text" id="sim" name="sim" placeholder="Your Expected Simulation Time Span..">
+	
+	<label for="Educational Level/Industry Type">Educational Level/Industry Type</label>
+    <input type="text" id="edlevel" name="edlevel" placeholder="Your Educational Level/Industry Type..">
+	
+	<label for="Objective use of simulation">Objective use of simulation</label>
+    <input type="text" id="use" name="use" placeholder="Your objective use of simulation..">
+	
+	<label for="Expected number of participants">Expected number of participants</label>
+    <input type="text" id="participant" name="participant" placeholder="Your expected number of participants..">
+	
+    <input type="submit" value="Submit">
+  </form>
+	</div>
 	
     <!-- Footer -->
      <footer class="text-center">
