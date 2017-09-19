@@ -124,6 +124,7 @@ header.content{
 	text-transform: uppercase;
 	position: center;
 	margin-top:200px;
+	background-color:#ffffff;
 }
 main{
 	width:100%;
@@ -144,7 +145,7 @@ div#leftContent{
 }
 .birdImage{
 	width:100%;
-	height:12%;
+	height:11%;
 	margin-top:1%;
 	float:right;
 }
@@ -161,7 +162,7 @@ h3.rightContentHeader{
 	font-size:2.6em;
 	color: #a0bcd8;
 }
-p{
+p.text{
 	font-size:1.15em;
 	width:100%;
     word-wrap: break-word;
@@ -185,6 +186,14 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
+}
+h3.other{
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+p.other1{
+	font-size: 20px;
 }
 
 

@@ -8,14 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+	
+	<!-- JQuery for Main Header-->
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 
-    <title>VitalBlinks</title>
+    <script> 
+       $(function(){
+          $('.main-header').load("header.html"); 
+       });
+    </script> 
+
+    <title>Services</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/services.css" rel="stylesheet">
+	<link href="css/freelancer.min.css" rel="stylesheet">
+	<link href="css/services.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -75,16 +85,16 @@
     </nav>
 
 	<!-- Header -->
-	<header class= "content">
-		<div class = "contain">
+	<header class="content">
+		<div class = "contains">
 			<h1>Services</h1>
-			<hr class = "star-light">
+			<hr class = "style6">
 		</div>
 	</header>
 	
 	<div class = "intro">
-		<h3>Whether you work in a higher educational institution, industry, or as an entrepreneur we have a business simulation solution for you.
-		Please click below to request a demo or additional information. </h3>
+		<span class="opening">Whether you work in a higher educational institution, industry, or as an entrepreneur we have a business simulation solution for you.
+		Please click below to request a demo or additional information. </span>
 	</div>
 	
 	<main>
@@ -101,18 +111,63 @@
 		</div>
 	</main>
 	
+	<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+
+	<label for="email">University/Organization Email</label>
+    <input type="text" id="email" name="Email" placeholder="Your Email..">
+
+	<label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" placeholder="Your Phone Number..">
+	
+	<label for="organization">Organization</label>
+    <input type="text" id="organization" name="organization" placeholder="Your Organization..">
+	
+	<label for="country">Country</label>
+    <input type="text" id="country" name="country" placeholder="Your Country..">
+
+    <label for="course focus">Course Focus</label>
+    <input type="text" id="courseFocus" name="courseFocus" placeholder="Your Course Focus..">
+
+	<label for="Expected Simulation Time Span">Expected Simulation Time Span</label>
+    <input type="text" id="sim" name="sim" placeholder="Your Expected Simulation Time Span..">
+	
+	<label for="Educational Level/Industry Type">Educational Level/Industry Type</label>
+    <input type="text" id="edlevel" name="edlevel" placeholder="Your Educational Level/Industry Type..">
+	
+	<label for="Objective use of simulation">Objective use of simulation</label>
+    <input type="text" id="use" name="use" placeholder="Your objective use of simulation..">
+	
+	<label for="Expected number of participants">Expected number of participants</label>
+    <input type="text" id="participant" name="participant" placeholder="Your expected number of participants..">
+	
+    <input type="submit" value="Submit">
+  </form>
+	</div>
+	
     <!-- Footer -->
-    <footer class="text-center">
+     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>10 Bank Street Suite
-                            <br>White Plains, NY 10606</p>
+                        <h3 class="other">Company</h3>
+                        <p class = "other1"><a href="index.html">Home</a><br>
+                        <a href="about.html">About</a><br>
+                        <a href="index.html">Services</a><br>
+                        <a href="index.html">Team</a><br>
+                        <a href="index.html">Contact</a></p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3 class="other">Contact</h3>
+                        <p class="other1">Address: White Plains, NY 10606 <br>
+                        Email: info@vitalblinks.com &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <br>
+                        Phone: 917-794-7292 &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &ensp; &ensp; &ensp; </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3 class="other">Around the Web</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
@@ -131,10 +186,6 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Filler</h3>
-                        <p>Filler</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -142,7 +193,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Vitablinks
+                        &copy; 2017, Vitalblinks.com, All Rights Reserved
                     </div>
                 </div>
             </div>
