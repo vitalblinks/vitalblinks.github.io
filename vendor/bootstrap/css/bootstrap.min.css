@@ -72,7 +72,7 @@
 
 /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Some left and right padding inside the container */
@@ -88,7 +88,7 @@
 }
 
 .title {
-  color: #2C3E50;
+  color: #777;
 }
 
 p.member-info{
@@ -103,7 +103,7 @@ p.member-info{
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #035877;
     text-align: center;
     cursor: pointer;
     width: 100%;
