@@ -14,20 +14,19 @@
 
     <script> 
        $(function(){
-            $('.main-header').load("header.html");
+            $('.main-header').load("header.html"); 
             $('.main-footer').load("footer.html"); 
-
        });
     </script> 
 
-    <title>Services</title>
+    <title>VitalBlinks</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
 	<link href="css/freelancer.min.css" rel="stylesheet">
-	<link href="css/services.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -47,7 +46,7 @@
 <body id="page-top" class="index">
 	<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
-	<!-- Navigation -->
+		<!-- Navigation -->
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -86,68 +85,62 @@
         <!-- /.container-fluid -->
     </nav>
 
-	<!-- Header -->
-	<header class="content">
-		<div class = "contains">
-			<h1>Services</h1>
+	<header class= "content">
+		<div class = "contain">
+			<h1>Welcome</h1>
 			<hr class = "style6">
 		</div>
 	</header>
 	
-	<div class = "intro">
-		<span class="opening">Whether you work in a higher educational institution, industry, or as an entrepreneur we have a business simulation solution for you.
-		Please click below to request a demo or additional information. </span>
-	</div>
-	
 	<main>
 		<div class="wrapper">
-			<div class ="content1">
-			<h2>Academia</h2>
+			<div id="leftContent">
+				<img class="birdImage" src="img\aboutImages\Artboard 8.png" alt="Vitablinks Bills 8">
+				
+				<img class="birdImage" src="img\aboutImages\Artboard 7.png" alt="Vitablinks Bills 7">
+				
+				<img class="birdImage" src="img\aboutImages\Artboard 6.png" alt="Vitablinks Bills 6">
+				
+				<img class="birdImage" src="img\aboutImages\Artboard 5.png" alt="Vitablinks Bills 5">
+				
+				<img class="birdImage" src="img\aboutImages\Artboard 4.png" alt="Vitablinks Bills 4">
+				
+				<img class="birdImage" src="img\aboutImages\Artboard 3.png" alt="Vitablinks Bills 3">
+				
+				<img class="birdImage" src="img\aboutImages\Artboard 2.png" alt="Vitablinks Bills 2">
+				
+				<img class="birdImage" src="img\aboutImages\Artboard 1.png" alt="Vitablinks Bills 1">
+				
 			</div>
-			<div class ="content2">
-			<h2>Industry</h2>
-			</div>
-			<div class ="content3">
-			<h2>Entrepreneur</h2>
+			<div id="rightContent">
+				<h3 class="rightContentHeader">What is Vitalblinks?</h3>
+				<p class="text">VitalBlinks - The Game is a business decision-making board game for MBA Students, Professionals, 
+					and Entrepreneurs looking to build, challenge or enhance their decision-making skills.
+					The game explores economic game theories and their applications in real-world crisis management scenarios.</p>
+				<h3 class="rightContentHeader">Experience</h3>
+				<p class="text">Players will learn the architecture of regulated industries [Pharmaceutical, Medical Device, Biologics or Food] 
+					and the strategic roles that various economic environments play in the overall success of a business. The game specifically
+					explores the roles of Contract Law, Patent law, Regulations of Medicinal products, Mergers and Acquisitions
+					and Financial Instruments in shaping decision outcomes.</p>
+				<p class="text">The VitalBlinks experience is innovative and is exceptionally teaching tool for strategic problem solving through application
+					of quantitative and behavioral methods. Players learn how to combine intellectual ideals with the realities of human and organizational
+					behavior. Simply put, the game design foster decision making skills by presenting opportunities for isolating optimal choices from many
+					different decision alternatives. </p>
+				<h3 class="rightContentHeader">Game Design</h3>
+				<p class="text">VitalBlinks is designed to be played in teams with each team reacting to post market surveillance activities. Teams will choose regions
+					of the world they would like to do business and the specific industry type they would like to engage in [Pharmaceutical, Medical Device,
+					Biologics or Food]. </p>
+				<p class="text">VitalBlinks introduces the concept of decision making science through post market surveillance. It covers the various aspects of traditional
+					business models including, Regulatory, R&D, Operations, Quality, Marketing. The path to wining is mastering the ability to grow and accumulate
+					significant revenue during crisis. </p>
+				<p class="text">There are 10 levels representing 10 years of product market.  Using several economic game theories within the game, VitalBlinks highlights the 
+					most important elements of human conflict and cooperation within competitive environments. Each level begins a with powerful story with world symbols
+					that reminds players of the human elements that sometimes have much more significant influence than factual data when it comes to decision making.</p>
+				<p class="text">They say history repeats itself! It about time we experience Vitalblinks.</p>
+				<p class="text">Click to learn more or contact us.</p>
 			</div>
 		</div>
 	</main>
-	
-	<div class="container">
-  <form action="http://formspree.io/Info@vitalblinks.com" method="POST">
-    <label for="fname">Full Name</label>
-    <input type="text" id="fname" name="Fullname" placeholder="">
-
-	<label for="email">University/Organization Email</label>
-    <input type="text" id="email" name="Email" placeholder="">
-
-	<label for="phone">Phone</label>
-    <input type="text" id="phone" name="Phone" placeholder="">
-	
-	<label for="organization">Organization</label>
-    <input type="text" id="organization" name="Organization" placeholder="">
-	
-	<label for="country">Country</label>
-    <input type="text" id="country" name="Country" placeholder="">
-
-    <label for="course focus">Course Focus</label>
-    <input type="text" id="courseFocus" name="CourseFocus" placeholder="">
-
-	<label for="Expected Simulation Time Span">Expected Simulation Time Span</label>
-    <input type="text" id="sim" name="SimulationTime" placeholder="">
-	
-	<label for="Educational Level/Industry Type">Educational Level/Industry Type</label>
-    <input type="text" id="edlevel" name="educationLevel" placeholder="">
-	
-	<label for="Objective use of simulation">Objective use of simulation</label>
-    <input type="text" id="use" name="objectiveUse" placeholder="">
-	
-	<label for="Expected number of participants">Expected number of participants</label>
-    <input type="text" id="participant" name="participantNumber" placeholder="">
-	
-    <input type="submit" value="submit">
-  </form>
-	</div>
 	
     <!-- Footer -->
     <div class="main-footer"></div>
